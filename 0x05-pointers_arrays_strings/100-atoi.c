@@ -8,13 +8,13 @@
 
 int _atoi(char *s)
 {
-	int i;
-	int z, p;
+int i;
+int z, p;
 
-	z = 0;
-	p = -1;
-	for (i = 0; s[i] != '\0'; i++)
-	{
+z = 0;
+p = -1;
+for (i = 0; s[i] != '\0'; i++)
+{
 if (s[i] == '-')
 p *= -1;
 
