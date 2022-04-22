@@ -1,29 +1,21 @@
-#include <stdio.h>
 #include "main.h"
+
 /**
- *puts2 - print pair values.
- *@str: value to be evaluate.
- *Return: not.
+ *puts2 - prints every character of a string
+ *@str: A pointer to an int that will be changed
+ *
+ *Return: void which means it is correct
  */
+
 void puts2(char *str)
 {
-int len = 0;
-int l = 0;
-char *y = str;
-int z;
+int a;
 
-while (*y != '\0')
+for (a = 0; str[a] != '\0'; a++)
 {
-y++;
-len++;
+if (a % 2 == 0)
+_putchar (str[a]);
 }
-l = len - 1;
-for (z = 0 ; z <= l ; z++)
-{
-if (z % 2 == 0)
-									
-_putchar(str[z]);
-																					}
-}
-_putchar('\n');
+
+_putchar ('\n');
 }
