@@ -1,1 +1,1 @@
-my dynamic lib
+my readme
